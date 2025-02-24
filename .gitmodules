@@ -1,0 +1,7 @@
+[submodule "LabExe"]
+	path = LabExe
+	url = ../LabExe.git
+	branch = QT_6.8
+[submodule "LabExe-UserPlugins"]
+	path = LabExe-UserPlugins
+	url = ../LabExe-UserPlugins.git
