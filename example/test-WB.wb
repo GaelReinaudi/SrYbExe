@@ -1,27 +1,35 @@
 [General]
-Dynamic-Docks=GBenchDockWidget-555556100538.250224.221334, GBenchDockWidget-55555610b858.250224.221334, GBenchDockWidget-55555610ef68.250224.221334
+Dynamic-Docks=GBenchDockWidget-555556105bb8.250315.193335, GBenchDockWidget-55555610ecd8.250315.193335, GBenchDockWidget-555556112548.250315.193335, GBenchDockWidget-555556115588.250315.193335, GBenchDockWidget-5555561183a8.250315.193335
 WorkBench-Type=GWorkBench
 isVisible=true
 objectName=test-WB
 
 [BenchDevices]
-NumberBenchDevices=3
-m_BenchDevices=GPlot1D-555556e67350.250224.220053, GRandomNumberGenerator-5555555cfd40.250224.220101, GRandomNumberGenerator-5555572f0840.250224.220108
+NumberBenchDevices=5
+m_BenchDevices=GPlot1D-555556e67350.250224.220053, GRandomNumberGenerator-5555555cfd40.250224.220101, GRandomNumberGenerator-5555572f0840.250224.220108, GStepper-55555694ac70.250314.232629, GPlotXY-5555569a42c0.250315.001721
 
-[GBenchDockWidget-555556100538.250224.221334]
+[GBenchDockWidget-555556105bb8.250315.193335]
 objectName=Dock-0
 title=GPlot1D-2
 
-[GBenchDockWidget-55555610b858.250224.221334]
+[GBenchDockWidget-55555610ecd8.250315.193335]
 objectName=Dock-1
 title=GRandomNumberGenerator-2
 
-[GBenchDockWidget-55555610ef68.250224.221334]
+[GBenchDockWidget-555556112548.250315.193335]
 objectName=Dock-2
 title=GRandomNumberGenerator-3
 
+[GBenchDockWidget-555556115588.250315.193335]
+objectName=Dock-3
+title=GStepper-2
+
+[GBenchDockWidget-5555561183a8.250315.193335]
+objectName=Dock-4
+title=GPlotXY-2
+
 [GPlot1D-555556e67350.250224.220053]
-BenchDockID=GBenchDockWidget-555556100538.250224.221334
+BenchDockID=GBenchDockWidget-555556105bb8.250315.193335
 Class=GPlot1D
 DateAdded=2025-02-24T22:00:53
 GPlot1D-555556e67350.250224.220053%28AllowMouseRescale\v=false
@@ -70,30 +78,116 @@ ID=GPlot1D-555556e67350.250224.220053
 Name=GPlot1D-2
 Parent-Device-ID=
 
+[GPlotXY-5555569a42c0.250315.001721]
+BenchDockID=GBenchDockWidget-5555561183a8.250315.193335
+Class=GPlotXY
+DateAdded=2025-03-15T00:17:21
+GPlotXY-5555569a42c0.250315.001721%28AllowMouseRescale\v=false
+GPlotXY-5555569a42c0.250315.001721%28BkgndColor\v=#FFFFFF
+GPlotXY-5555569a42c0.250315.001721%28Disable%20X\v=false
+GPlotXY-5555569a42c0.250315.001721%28Dot%20Size\v=1
+GPlotXY-5555569a42c0.250315.001721%28Export%20Delay\v=100
+GPlotXY-5555569a42c0.250315.001721%28External%20N%20bucket\extras\GPlotXY-5555569a42c0.250315.001721%28External%20N%20bucket%28External%20N%20bucket\v=0
+GPlotXY-5555569a42c0.250315.001721%28External%20N%20bucket\extras\GPlotXY-5555569a42c0.250315.001721%28External%20N%20bucket%28GPlotXY-5555569a42c0.250315.001721%28External%20N%20bucket%28External%20N%20buckettrig\v=true
+GPlotXY-5555569a42c0.250315.001721%28External%20N%20bucket\extras\trig=@Variant(\0\0\0\t\0\0\0\x1\0\0\0\x1\x1)
+GPlotXY-5555569a42c0.250315.001721%28External%20N%20bucket\params=GPlotXY-5555569a42c0.250315.001721(External N bucket(External N bucket
+GPlotXY-5555569a42c0.250315.001721%28External%20N\v=false
+GPlotXY-5555569a42c0.250315.001721%28Filter%20Y%20N\v=10
+GPlotXY-5555569a42c0.250315.001721%28Filter%20Y\v=false
+GPlotXY-5555569a42c0.250315.001721%28LabelX\v=
+GPlotXY-5555569a42c0.250315.001721%28LabelY\v=
+GPlotXY-5555569a42c0.250315.001721%28MaxHistory\v=1000
+GPlotXY-5555569a42c0.250315.001721%28No%20Line\v=true
+GPlotXY-5555569a42c0.250315.001721%28NumUpdates%20output\v=0
+GPlotXY-5555569a42c0.250315.001721%28Output%20bucket\extras\GPlotXY-5555569a42c0.250315.001721%28Output%20bucket%28GPlotXY-5555569a42c0.250315.001721%28NumUpdates%20outputtrig\v=true
+GPlotXY-5555569a42c0.250315.001721%28Output%20bucket\extras\GPlotXY-5555569a42c0.250315.001721%28Output%20bucket%28GPlotXY-5555569a42c0.250315.001721%28X-axis%20outputtrig\v=true
+GPlotXY-5555569a42c0.250315.001721%28Output%20bucket\extras\GPlotXY-5555569a42c0.250315.001721%28Output%20bucket%28GPlotXY-5555569a42c0.250315.001721%28Y-axis%20outputtrig\v=true
+GPlotXY-5555569a42c0.250315.001721%28Output%20bucket\extras\trig=true, true, true
+GPlotXY-5555569a42c0.250315.001721%28Output%20bucket\params=GPlotXY-5555569a42c0.250315.001721(X-axis output, GPlotXY-5555569a42c0.250315.001721(Y-axis output, GPlotXY-5555569a42c0.250315.001721(NumUpdates output
+GPlotXY-5555569a42c0.250315.001721%28Title\v=
+GPlotXY-5555569a42c0.250315.001721%28Update%20on%20X\v=false
+GPlotXY-5555569a42c0.250315.001721%28Update%20on%20Y\v=true
+GPlotXY-5555569a42c0.250315.001721%28X-axis%20input\extras\GPlotXY-5555569a42c0.250315.001721%28X-axis%20input%28GStepper-55555694ac70.250314.232629%28Output%28Outputtrig\v=true
+GPlotXY-5555569a42c0.250315.001721%28X-axis%20input\extras\GPlotXY-5555569a42c0.250315.001721%28X-axis%20input%28X-axis%20input\v=0
+GPlotXY-5555569a42c0.250315.001721%28X-axis%20input\extras\trig=@Variant(\0\0\0\t\0\0\0\x1\0\0\0\x1\x1)
+GPlotXY-5555569a42c0.250315.001721%28X-axis%20input\params=GStepper-55555694ac70.250314.232629(Output(Output
+GPlotXY-5555569a42c0.250315.001721%28X-axis%20output\v=0
+GPlotXY-5555569a42c0.250315.001721%28XAutoscale\v=true
+GPlotXY-5555569a42c0.250315.001721%28XGridColor\v=#E0E0E0
+GPlotXY-5555569a42c0.250315.001721%28XGridOn\v=true
+GPlotXY-5555569a42c0.250315.001721%28XIsTime\v=false
+GPlotXY-5555569a42c0.250315.001721%28XIsTimeFormat\v=mm:ss
+GPlotXY-5555569a42c0.250315.001721%28XMax\v=100
+GPlotXY-5555569a42c0.250315.001721%28XMin\v=1
+GPlotXY-5555569a42c0.250315.001721%28XType\v=false
+GPlotXY-5555569a42c0.250315.001721%28XWhichTime\v=false
+GPlotXY-5555569a42c0.250315.001721%28Y-axis%20input\extras\GPlotXY-5555569a42c0.250315.001721%28Y-axis%20input%28GRandomNumberGenerator-5555555cfd40.250224.220101%28outtrig\v=true
+GPlotXY-5555569a42c0.250315.001721%28Y-axis%20input\extras\GPlotXY-5555569a42c0.250315.001721%28Y-axis%20input%28Y-axis%20input\v=0
+GPlotXY-5555569a42c0.250315.001721%28Y-axis%20input\extras\trig=@Variant(\0\0\0\t\0\0\0\x1\0\0\0\x1\x1)
+GPlotXY-5555569a42c0.250315.001721%28Y-axis%20input\params=GRandomNumberGenerator-5555555cfd40.250224.220101(out
+GPlotXY-5555569a42c0.250315.001721%28Y-axis%20output\v=0
+GPlotXY-5555569a42c0.250315.001721%28YAutoscale\v=true
+GPlotXY-5555569a42c0.250315.001721%28YColor\v=#0000FF
+GPlotXY-5555569a42c0.250315.001721%28YGridColor\v=#E0E0E0
+GPlotXY-5555569a42c0.250315.001721%28YGridOn\v=true
+GPlotXY-5555569a42c0.250315.001721%28YIncludeZero\v=false
+GPlotXY-5555569a42c0.250315.001721%28YMax\v=10
+GPlotXY-5555569a42c0.250315.001721%28YMin\v=-10
+GPlotXY-5555569a42c0.250315.001721%28YSymmetricZero\v=false
+GPlotXY-5555569a42c0.250315.001721%28YType\v=false
+ID=GPlotXY-5555569a42c0.250315.001721
+Name=GPlotXY-2
+Parent-Device-ID=
+
 [GRandomNumberGenerator-5555555cfd40.250224.220101]
-BenchDockID=GBenchDockWidget-55555610b858.250224.221334
+BenchDockID=GBenchDockWidget-55555610ecd8.250315.193335
 Class=GRandomNumberGenerator
 DateAdded=2025-02-24T22:01:01
-GRandomNumberGenerator-5555555cfd40.250224.220101%28Generate\v=false
+GRandomNumberGenerator-5555555cfd40.250224.220101%28Generate\v=true
 GRandomNumberGenerator-5555555cfd40.250224.220101%28max\v=1
-GRandomNumberGenerator-5555555cfd40.250224.220101%28out\v=0.8085458324045358
+GRandomNumberGenerator-5555555cfd40.250224.220101%28out\v=0.03256408729547122
 GRandomNumberGenerator-5555555cfd40.250224.220101%28seed\v=1125
 ID=GRandomNumberGenerator-5555555cfd40.250224.220101
 Name=GRandomNumberGenerator-2
 Parent-Device-ID=
 
 [GRandomNumberGenerator-5555572f0840.250224.220108]
-BenchDockID=GBenchDockWidget-55555610ef68.250224.221334
+BenchDockID=GBenchDockWidget-555556112548.250315.193335
 Class=GRandomNumberGenerator
 DateAdded=2025-02-24T22:01:08
-GRandomNumberGenerator-5555572f0840.250224.220108%28Generate\v=false
+GRandomNumberGenerator-5555572f0840.250224.220108%28Generate\v=true
 GRandomNumberGenerator-5555572f0840.250224.220108%28max\v=1
-GRandomNumberGenerator-5555572f0840.250224.220108%28out\v=0
+GRandomNumberGenerator-5555572f0840.250224.220108%28out\v=0.8793170576681717
 GRandomNumberGenerator-5555572f0840.250224.220108%28seed\v=1125
 ID=GRandomNumberGenerator-5555572f0840.250224.220108
 Name=GRandomNumberGenerator-3
 Parent-Device-ID=
 
+[GStepper-55555694ac70.250314.232629]
+BenchDockID=GBenchDockWidget-555556115588.250315.193335
+Class=GStepper
+DateAdded=2025-03-14T23:26:29
+GStepper-55555694ac70.250314.232629%28Current%20Point\v=1981
+GStepper-55555694ac70.250314.232629%28Delay%20%28s%29\v=1
+GStepper-55555694ac70.250314.232629%28Enable%20Sweep\v=true
+GStepper-55555694ac70.250314.232629%28Maximum\v=99
+GStepper-55555694ac70.250314.232629%28Number%20of%20Points\v=5000
+GStepper-55555694ac70.250314.232629%28Output\extras\GStepper-55555694ac70.250314.232629%28Output%28GStepper-55555694ac70.250314.232629%28Output%28Outputtrig\v=true
+GStepper-55555694ac70.250314.232629%28Output\extras\GStepper-55555694ac70.250314.232629%28Output%28Output\v=39
+GStepper-55555694ac70.250314.232629%28Output\extras\trig=@Variant(\0\0\0\t\0\0\0\x1\0\0\0\x1\x1)
+GStepper-55555694ac70.250314.232629%28Output\params=GStepper-55555694ac70.250314.232629(Output(Output
+GStepper-55555694ac70.250314.232629%28Points%20Per%20Step\v=50
+GStepper-55555694ac70.250314.232629%28Reset\v=true
+GStepper-55555694ac70.250314.232629%28Start\v=0
+GStepper-55555694ac70.250314.232629%28Step%20Size\v=1
+GStepper-55555694ac70.250314.232629%28Trigger\extras\GStepper-55555694ac70.250314.232629%28Trigger%28GRandomNumberGenerator-5555572f0840.250224.220108%28outtrig\v=true
+GStepper-55555694ac70.250314.232629%28Trigger\extras\GStepper-55555694ac70.250314.232629%28Trigger%28Trigger\v=109
+GStepper-55555694ac70.250314.232629%28Trigger\extras\trig=@Variant(\0\0\0\t\0\0\0\x1\0\0\0\x1\x1)
+GStepper-55555694ac70.250314.232629%28Trigger\params=GRandomNumberGenerator-5555572f0840.250224.220108(out
+ID=GStepper-55555694ac70.250314.232629
+Name=GStepper-2
+Parent-Device-ID=
+
 [Geometry]
-geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x3\0\0\xff\xff\xff\xf5\xff\xff\xff\xcf\0\0\x6\x8a\0\0\x4\xc4\0\0\0\0\0\0\0\0\0\0\x6\x7f\0\0\x4\xb9\0\0\0\0\0\0\0\0\xf\0\0\0\0\0\0\0\0\0\0\0\x6\x7f\0\0\x4\xb9)
-windowState=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x2\0\0\0\0\0\0\0\x96\0\0\x4\x8e\xfc\x2\0\0\0\x2\xfb\0\0\0\f\0\x44\0o\0\x63\0k\0-\0\x31\x1\0\0\0\x16\0\0\0\xc1\0\0\0\x81\0\xff\xff\xff\xfb\0\0\0\f\0\x44\0o\0\x63\0k\0-\0\x32\x1\0\0\0\xdd\0\0\x3\xc7\0\0\0\x81\0\xff\xff\xff\0\0\0\x1\0\0\x5\x35\0\0\x4\x8e\xfc\x2\0\0\0\x2\xfb\0\0\0\x16\0m\0_\0p\0\x44\0o\0\x63\0k\0U\0n\0\x64\0o\0\0\0\0\0\xff\xff\xff\xff\0\0\0Y\0\xff\xff\xff\xfb\0\0\0\f\0\x44\0o\0\x63\0k\0-\0\x30\x1\0\0\0\x16\0\0\x4\x8e\0\0\0\xa0\0\xff\xff\xff\0\0\0\xa9\0\0\x4\x8e\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
+geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x3\0\0\xff\xff\xff\xfd\xff\xff\xff\xe2\0\0\x6\x82\0\0\x4\xbc\0\0\0\0\0\0\0\0\0\0\x6\x7f\0\0\x4\xb9\0\0\0\0\0\0\0\0\xf\0\0\0\0\0\0\0\0\0\0\0\x6\x7f\0\0\x4\xb9)
+windowState=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x2\0\0\0\0\0\0\x1\x65\0\0\x4\xa4\xfc\x2\0\0\0\x3\xfb\0\0\0\f\0\x44\0o\0\x63\0k\0-\0\x31\x1\0\0\0\x16\0\0\0\x88\0\0\0\x81\0\xff\xff\xff\xfb\0\0\0\f\0\x44\0o\0\x63\0k\0-\0\x32\x1\0\0\0\xa4\0\0\0\xd4\0\0\0\x81\0\xff\xff\xff\xfb\0\0\0\f\0\x44\0o\0\x63\0k\0-\0\x33\x1\0\0\x1~\0\0\x3<\0\0\x1\x63\0\xff\xff\xff\0\0\0\x1\0\0\x5\xf\0\0\x4\xa4\xfc\x2\0\0\0\x3\xfb\0\0\0\x16\0m\0_\0p\0\x44\0o\0\x63\0k\0U\0n\0\x64\0o\0\0\0\0\0\xff\xff\xff\xff\0\0\0Y\0\xff\xff\xff\xfb\0\0\0\f\0\x44\0o\0\x63\0k\0-\0\x30\x1\0\0\0\x16\0\0\x2R\0\0\0\xa0\0\xff\xff\xff\xfb\0\0\0\f\0\x44\0o\0\x63\0k\0-\0\x34\x1\0\0\x2n\0\0\x2L\0\0\0\xa0\0\xff\xff\xff\0\0\0\0\0\0\x4\xa4\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
