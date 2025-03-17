@@ -1,35 +1,62 @@
 [General]
-Dynamic-Docks=GBenchDockWidget-555556105bb8.250315.193335, GBenchDockWidget-55555610ecd8.250315.193335, GBenchDockWidget-555556112548.250315.193335, GBenchDockWidget-555556115588.250315.193335, GBenchDockWidget-5555561183a8.250315.193335
+Dynamic-Docks=GBenchDockWidget-60d00f5adf88.250316.222302, GBenchDockWidget-60d00f5b78c8.250316.222302, GBenchDockWidget-60d00f5bb108.250316.222302, GBenchDockWidget-60d00f5be668.250316.222302, GBenchDockWidget-60d00f5c1848.250316.222302, GBenchDockWidget-60d00f5c4a78.250316.222302
 WorkBench-Type=GWorkBench
 isVisible=true
 objectName=test-WB
 
 [BenchDevices]
-NumberBenchDevices=5
-m_BenchDevices=GPlot1D-555556e67350.250224.220053, GRandomNumberGenerator-5555555cfd40.250224.220101, GRandomNumberGenerator-5555572f0840.250224.220108, GStepper-55555694ac70.250314.232629, GPlotXY-5555569a42c0.250315.001721
+NumberBenchDevices=6
+m_BenchDevices=GPlot1D-555556e67350.250224.220053, GRandomNumberGenerator-5555555cfd40.250224.220101, GRandomNumberGenerator-5555572f0840.250224.220108, GStepper-55555694ac70.250314.232629, GPlotXY-5555569a42c0.250315.001721, GListStepper-555556ac9810.250316.000628
 
-[GBenchDockWidget-555556105bb8.250315.193335]
+[GBenchDockWidget-60d00f5adf88.250316.222302]
 objectName=Dock-0
 title=GPlot1D-2
 
-[GBenchDockWidget-55555610ecd8.250315.193335]
+[GBenchDockWidget-60d00f5b78c8.250316.222302]
 objectName=Dock-1
 title=GRandomNumberGenerator-2
 
-[GBenchDockWidget-555556112548.250315.193335]
+[GBenchDockWidget-60d00f5bb108.250316.222302]
 objectName=Dock-2
 title=GRandomNumberGenerator-3
 
-[GBenchDockWidget-555556115588.250315.193335]
+[GBenchDockWidget-60d00f5be668.250316.222302]
 objectName=Dock-3
 title=GStepper-2
 
-[GBenchDockWidget-5555561183a8.250315.193335]
+[GBenchDockWidget-60d00f5c1848.250316.222302]
 objectName=Dock-4
 title=GPlotXY-2
 
+[GBenchDockWidget-60d00f5c4a78.250316.222302]
+objectName=Dock-5
+title=GListStepper-2
+
+[GListStepper-555556ac9810.250316.000628]
+BenchDockID=GBenchDockWidget-60d00f5c4a78.250316.222302
+Class=GListStepper
+DateAdded=2025-03-16T00:06:28
+GListStepper-555556ac9810.250316.000628%28Delay%20%28s%29\v=0
+GListStepper-555556ac9810.250316.000628%28Enable\v=true
+GListStepper-555556ac9810.250316.000628%28Index\v=2
+GListStepper-555556ac9810.250316.000628%28List\v="1\n2\n3\n4\n5\n6,7,8,9 10\n"
+GListStepper-555556ac9810.250316.000628%28Num%20Values\v=10
+GListStepper-555556ac9810.250316.000628%28Output\extras\GListStepper-555556ac9810.250316.000628%28Output%28GListStepper-555556ac9810.250316.000628%28Output%28Outputtrig\v=true
+GListStepper-555556ac9810.250316.000628%28Output\extras\GListStepper-555556ac9810.250316.000628%28Output%28Output\v=2
+GListStepper-555556ac9810.250316.000628%28Output\extras\trig=@Variant(\0\0\0\t\0\0\0\x1\0\0\0\x1\x1)
+GListStepper-555556ac9810.250316.000628%28Output\params=GListStepper-555556ac9810.250316.000628(Output(Output
+GListStepper-555556ac9810.250316.000628%28Reset\v=false
+GListStepper-555556ac9810.250316.000628%28Trig%20\%20N\v=1
+GListStepper-555556ac9810.250316.000628%28Trigger\extras\GListStepper-555556ac9810.250316.000628%28Trigger%28GRandomNumberGenerator-5555572f0840.250224.220108%28outtrig\v=true
+GListStepper-555556ac9810.250316.000628%28Trigger\extras\GListStepper-555556ac9810.250316.000628%28Trigger%28Trigger\v=0
+GListStepper-555556ac9810.250316.000628%28Trigger\extras\trig=@Variant(\0\0\0\t\0\0\0\x1\0\0\0\x1\x1)
+GListStepper-555556ac9810.250316.000628%28Trigger\params=GRandomNumberGenerator-5555572f0840.250224.220108(out
+ID=GListStepper-555556ac9810.250316.000628
+Name=GListStepper-2
+Parent-Device-ID=
+
 [GPlot1D-555556e67350.250224.220053]
-BenchDockID=GBenchDockWidget-555556105bb8.250315.193335
+BenchDockID=GBenchDockWidget-60d00f5adf88.250316.222302
 Class=GPlot1D
 DateAdded=2025-02-24T22:00:53
 GPlot1D-555556e67350.250224.220053%28AllowMouseRescale\v=false
@@ -79,7 +106,7 @@ Name=GPlot1D-2
 Parent-Device-ID=
 
 [GPlotXY-5555569a42c0.250315.001721]
-BenchDockID=GBenchDockWidget-5555561183a8.250315.193335
+BenchDockID=GBenchDockWidget-60d00f5c1848.250316.222302
 Class=GPlotXY
 DateAdded=2025-03-15T00:17:21
 GPlotXY-5555569a42c0.250315.001721%28AllowMouseRescale\v=false
@@ -112,13 +139,13 @@ GPlotXY-5555569a42c0.250315.001721%28X-axis%20input\extras\GPlotXY-5555569a42c0.
 GPlotXY-5555569a42c0.250315.001721%28X-axis%20input\extras\trig=@Variant(\0\0\0\t\0\0\0\x1\0\0\0\x1\x1)
 GPlotXY-5555569a42c0.250315.001721%28X-axis%20input\params=GStepper-55555694ac70.250314.232629(Output(Output
 GPlotXY-5555569a42c0.250315.001721%28X-axis%20output\v=0
-GPlotXY-5555569a42c0.250315.001721%28XAutoscale\v=true
+GPlotXY-5555569a42c0.250315.001721%28XAutoscale\v=false
 GPlotXY-5555569a42c0.250315.001721%28XGridColor\v=#E0E0E0
 GPlotXY-5555569a42c0.250315.001721%28XGridOn\v=true
 GPlotXY-5555569a42c0.250315.001721%28XIsTime\v=false
 GPlotXY-5555569a42c0.250315.001721%28XIsTimeFormat\v=mm:ss
 GPlotXY-5555569a42c0.250315.001721%28XMax\v=100
-GPlotXY-5555569a42c0.250315.001721%28XMin\v=1
+GPlotXY-5555569a42c0.250315.001721%28XMin\v=0
 GPlotXY-5555569a42c0.250315.001721%28XType\v=false
 GPlotXY-5555569a42c0.250315.001721%28XWhichTime\v=false
 GPlotXY-5555569a42c0.250315.001721%28Y-axis%20input\extras\GPlotXY-5555569a42c0.250315.001721%28Y-axis%20input%28GRandomNumberGenerator-5555555cfd40.250224.220101%28outtrig\v=true
@@ -140,43 +167,43 @@ Name=GPlotXY-2
 Parent-Device-ID=
 
 [GRandomNumberGenerator-5555555cfd40.250224.220101]
-BenchDockID=GBenchDockWidget-55555610ecd8.250315.193335
+BenchDockID=GBenchDockWidget-60d00f5b78c8.250316.222302
 Class=GRandomNumberGenerator
 DateAdded=2025-02-24T22:01:01
 GRandomNumberGenerator-5555555cfd40.250224.220101%28Generate\v=true
 GRandomNumberGenerator-5555555cfd40.250224.220101%28max\v=1
-GRandomNumberGenerator-5555555cfd40.250224.220101%28out\v=0.03256408729547122
+GRandomNumberGenerator-5555555cfd40.250224.220101%28out\v=0.470001302450465
 GRandomNumberGenerator-5555555cfd40.250224.220101%28seed\v=1125
 ID=GRandomNumberGenerator-5555555cfd40.250224.220101
 Name=GRandomNumberGenerator-2
 Parent-Device-ID=
 
 [GRandomNumberGenerator-5555572f0840.250224.220108]
-BenchDockID=GBenchDockWidget-555556112548.250315.193335
+BenchDockID=GBenchDockWidget-60d00f5bb108.250316.222302
 Class=GRandomNumberGenerator
 DateAdded=2025-02-24T22:01:08
 GRandomNumberGenerator-5555572f0840.250224.220108%28Generate\v=true
 GRandomNumberGenerator-5555572f0840.250224.220108%28max\v=1
-GRandomNumberGenerator-5555572f0840.250224.220108%28out\v=0.8793170576681717
+GRandomNumberGenerator-5555572f0840.250224.220108%28out\v=0.9189541195611616
 GRandomNumberGenerator-5555572f0840.250224.220108%28seed\v=1125
 ID=GRandomNumberGenerator-5555572f0840.250224.220108
 Name=GRandomNumberGenerator-3
 Parent-Device-ID=
 
 [GStepper-55555694ac70.250314.232629]
-BenchDockID=GBenchDockWidget-555556115588.250315.193335
+BenchDockID=GBenchDockWidget-60d00f5be668.250316.222302
 Class=GStepper
 DateAdded=2025-03-14T23:26:29
-GStepper-55555694ac70.250314.232629%28Current%20Point\v=1981
+GStepper-55555694ac70.250314.232629%28Current%20Point\v=312
 GStepper-55555694ac70.250314.232629%28Delay%20%28s%29\v=1
 GStepper-55555694ac70.250314.232629%28Enable%20Sweep\v=true
 GStepper-55555694ac70.250314.232629%28Maximum\v=99
-GStepper-55555694ac70.250314.232629%28Number%20of%20Points\v=5000
+GStepper-55555694ac70.250314.232629%28Number%20of%20Points\v=3000
 GStepper-55555694ac70.250314.232629%28Output\extras\GStepper-55555694ac70.250314.232629%28Output%28GStepper-55555694ac70.250314.232629%28Output%28Outputtrig\v=true
-GStepper-55555694ac70.250314.232629%28Output\extras\GStepper-55555694ac70.250314.232629%28Output%28Output\v=39
+GStepper-55555694ac70.250314.232629%28Output\extras\GStepper-55555694ac70.250314.232629%28Output%28Output\v=10
 GStepper-55555694ac70.250314.232629%28Output\extras\trig=@Variant(\0\0\0\t\0\0\0\x1\0\0\0\x1\x1)
 GStepper-55555694ac70.250314.232629%28Output\params=GStepper-55555694ac70.250314.232629(Output(Output
-GStepper-55555694ac70.250314.232629%28Points%20Per%20Step\v=50
+GStepper-55555694ac70.250314.232629%28Points%20Per%20Step\v=30
 GStepper-55555694ac70.250314.232629%28Reset\v=true
 GStepper-55555694ac70.250314.232629%28Start\v=0
 GStepper-55555694ac70.250314.232629%28Step%20Size\v=1
@@ -189,5 +216,5 @@ Name=GStepper-2
 Parent-Device-ID=
 
 [Geometry]
-geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x3\0\0\xff\xff\xff\xfd\xff\xff\xff\xe2\0\0\x6\x82\0\0\x4\xbc\0\0\0\0\0\0\0\0\0\0\x6\x7f\0\0\x4\xb9\0\0\0\0\0\0\0\0\xf\0\0\0\0\0\0\0\0\0\0\0\x6\x7f\0\0\x4\xb9)
-windowState=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x2\0\0\0\0\0\0\x1\x65\0\0\x4\xa4\xfc\x2\0\0\0\x3\xfb\0\0\0\f\0\x44\0o\0\x63\0k\0-\0\x31\x1\0\0\0\x16\0\0\0\x88\0\0\0\x81\0\xff\xff\xff\xfb\0\0\0\f\0\x44\0o\0\x63\0k\0-\0\x32\x1\0\0\0\xa4\0\0\0\xd4\0\0\0\x81\0\xff\xff\xff\xfb\0\0\0\f\0\x44\0o\0\x63\0k\0-\0\x33\x1\0\0\x1~\0\0\x3<\0\0\x1\x63\0\xff\xff\xff\0\0\0\x1\0\0\x5\xf\0\0\x4\xa4\xfc\x2\0\0\0\x3\xfb\0\0\0\x16\0m\0_\0p\0\x44\0o\0\x63\0k\0U\0n\0\x64\0o\0\0\0\0\0\xff\xff\xff\xff\0\0\0Y\0\xff\xff\xff\xfb\0\0\0\f\0\x44\0o\0\x63\0k\0-\0\x30\x1\0\0\0\x16\0\0\x2R\0\0\0\xa0\0\xff\xff\xff\xfb\0\0\0\f\0\x44\0o\0\x63\0k\0-\0\x34\x1\0\0\x2n\0\0\x2L\0\0\0\xa0\0\xff\xff\xff\0\0\0\0\0\0\x4\xa4\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
+geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x3\0\0\xff\xff\xff\xfd\xff\xff\xff\xe2\0\0\x6\x82\0\0\x5\xe6\0\0\0\0\0\0\0\0\0\0\x6\x7f\0\0\x5\xe3\0\0\0\0\0\0\0\0\xf\0\0\0\0\0\0\0\0\0\0\0\x6\x7f\0\0\x5\xe3)
+windowState=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x2\0\0\0\0\0\0\x1o\0\0\x5\xce\xfc\x2\0\0\0\x4\xfb\0\0\0\f\0\x44\0o\0\x63\0k\0-\0\x31\x1\0\0\0\x16\0\0\0\xa1\0\0\0|\0\xff\xff\xff\xfb\0\0\0\f\0\x44\0o\0\x63\0k\0-\0\x32\x1\0\0\0\xbb\0\0\0\x9d\0\0\0|\0\xff\xff\xff\xfb\0\0\0\f\0\x44\0o\0\x63\0k\0-\0\x33\x1\0\0\x1\\\0\0\x1\xa4\0\0\x1P\0\xff\xff\xff\xfb\0\0\0\f\0\x44\0o\0\x63\0k\0-\0\x35\x1\0\0\x3\x4\0\0\x2\xe0\0\0\x1\x7f\0\xff\xff\xff\0\0\0\x1\0\0\x5\x5\0\0\x5\xce\xfc\x2\0\0\0\x3\xfb\0\0\0\x16\0m\0_\0p\0\x44\0o\0\x63\0k\0U\0n\0\x64\0o\0\0\0\0\0\xff\xff\xff\xff\0\0\0R\0\xff\xff\xff\xfb\0\0\0\f\0\x44\0o\0\x63\0k\0-\0\x30\x1\0\0\0\x16\0\0\x2\xec\0\0\0\xa2\0\xff\xff\xff\xfb\0\0\0\f\0\x44\0o\0\x63\0k\0-\0\x34\x1\0\0\x3\x6\0\0\x2\xde\0\0\0\xa2\0\xff\xff\xff\0\0\0\x4\0\0\x5\xce\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
