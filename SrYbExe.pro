@@ -1,6 +1,9 @@
 TEMPLATE = subdirs
 CONFIG += ordered
 
+# For information about the current Qt version
+message("Building with Qt $$QT_VERSION")
+
 SUBDIRS += \
         LabExe/src/labexe.pro \
 #	MapExe/src/LabExeGraphicsMap.pro \
