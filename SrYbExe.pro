@@ -12,7 +12,6 @@ SUBDIRS += \
     LabExe/src/LabExeOptimizing \
     LabExe-UserPlugins/SoftwarePlugins/SoftwarePlugins.pro \
     LabExe-UserPlugins/HardwarePlugins/HardwarePlugins.pro \
-    # Deployement/UserPluginWizard/UserPluginWizard.pro \
     src/SrYbExe.pro
 
 LabExeImaging.depends = labexe

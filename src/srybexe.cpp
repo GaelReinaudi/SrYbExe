@@ -7,6 +7,7 @@
 #endif
 #ifdef Q_OS_LINUX
 #include "LabExeImaging/labexeimaging.h"
+#include "LabExeOptimizing/labexeoptimizing.h"
 //#include "LabExeSequencer/labexesequencer.h"
 #endif
 
@@ -34,7 +35,7 @@ SrYbExe::SrYbExe(QString controlPanelIniFilePath, QWidget *parent, Qt::WindowFla
 #ifdef Q_OS_LINUX
 	LabExeImaging();
 //	LabExeSequencer();
-//	LabExeOptimizing();
+	LabExeOptimizing();
 #endif
 
 #ifdef Q_OS_WIN32
