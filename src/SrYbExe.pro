@@ -7,8 +7,9 @@ QT = core gui widgets
 # Add additional modules
 QT += printsupport script
 
-# Remove any Qt 6 compatibility modules
-QT -= core5compat
+lessThan(QT_MAJOR_VERSION, 6) {
+    QT -= core5compat  # Ensure we're not using Qt6 compatibility module
+}
 
 include($$PWD/../LabExe/common.pri)
 
