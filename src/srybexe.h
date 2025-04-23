@@ -5,7 +5,7 @@
 #include "TheLab/GLabControlPanel.h"
 class SrYbExe : public GLabControlPanel
 {
-	Q_OBJECT
+    Q_OBJECT
 
 public:
     SrYbExe(QString controlPanelIniFilePath, QWidget *parent = nullptr, Qt::WindowFlags flags = Qt::WindowFlags());
@@ -15,7 +15,7 @@ public:
     void CheckForUpdate();
 
 protected:
-	QList<GDevice*> DevicesToShelf();
+    QList<GDevice*> DevicesToShelf();
 };
 
 #endif // SRYBEXE_H
