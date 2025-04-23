@@ -11,8 +11,8 @@ public:
     SrYbExe(QString controlPanelIniFilePath, QWidget *parent = nullptr, Qt::WindowFlags flags = Qt::WindowFlags());
     ~SrYbExe();
 
-	//! Re-implemented
-	void CheckForUpdate();
+    //! Re-implemented
+    void CheckForUpdate();
 
 protected:
 	QList<GDevice*> DevicesToShelf();

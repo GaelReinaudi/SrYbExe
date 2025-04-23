@@ -14,13 +14,10 @@ lessThan(QT_MAJOR_VERSION, 6) {
 include($$PWD/../LabExe/common.pri)
 
 INCLUDEPATH += \
-    ./../LabExe/src \
-    ./../LabExe/include \
-    ./GeneratedFiles \
-    .
-
-LIBS += \
--L"./LabExe/"
+    $$PWD/../LabExe/src \
+    $$PWD/../LabExe/include \
+    $$PWD/GeneratedFiles \
+    $$PWD
 
 CONFIG(debug, debug|release) {
     LIBS += -llabexe_D \
