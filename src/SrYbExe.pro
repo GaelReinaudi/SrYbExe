@@ -29,6 +29,6 @@ CONFIG(debug, debug|release) {
     # -lLabExeOptimizing
 }
 
-RC_FILE = SrYbExe.rc
+RC_FILE = $$PWD/SrYbExe.rc
 
 include(SrYbExe.pri)
