@@ -5,10 +5,10 @@ QT += core gui widgets
 include($$PWD/../LabExe/common.pri)
 
 INCLUDEPATH += \
-        ./../LabExe/src \
-        ./../LabExe/include \
-        ./GeneratedFiles \
-        .
+    $$PWD/../LabExe/src \
+    $$PWD/../LabExe/include \
+    ./GeneratedFiles \
+    $$PWD
 
 LIBS += \
 -L"./LabExe/"
@@ -23,6 +23,11 @@ CONFIG(debug, debug|release) {
         -lLabExeOptimizing
 }
 
-RC_FILE = SrYbExe.rc
+RC_FILE = $$PWD/SrYbExe.rc
 
 include(SrYbExe.pri)
+
+win32 {
+    DEPLOY_COMMAND = windeployqt $$shell_quote($$OUT_PWD/WinLabExe.exe)
+    QMAKE_POST_LINK += $$DEPLOY_COMMAND$$escape_expand(\\n\\t)
+}
