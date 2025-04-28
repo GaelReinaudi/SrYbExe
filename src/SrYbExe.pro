@@ -32,3 +32,8 @@ CONFIG(debug, debug|release) {
 RC_FILE = $$PWD/SrYbExe.rc
 
 include(SrYbExe.pri)
+
+win32 {
+    DEPLOY_COMMAND = windeployqt $$shell_quote($$OUT_PWD/WinLabExe.exe)
+    QMAKE_POST_LINK += $$DEPLOY_COMMAND$$escape_expand(\\n\\t)
+}
