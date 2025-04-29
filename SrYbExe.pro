@@ -4,10 +4,6 @@ CONFIG += ordered
 # For information about the current Qt version
 message("Building with Qt $$QT_VERSION")
 
-lessThan(QT_MAJOR_VERSION, 6) {
-    QT -= core5compat  # Ensure we're not using Qt6 compatibility module
-}
-
 SUBDIRS += \
     LabExe/src/labexe.pro \
     # MapExe/src/LabExeGraphicsMap.pro \
