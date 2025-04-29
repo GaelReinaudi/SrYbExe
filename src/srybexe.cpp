@@ -2,12 +2,13 @@
 #include "Device/GDevice.h"
 #ifdef Q_OS_WIN32
 #include "LabExeImaging/labexeimaging.h"
-//#include "LabExeSequencer/labexesequencer.h"
+// #include "LabExeOptimizing/labexeoptimizing.h"
+// #include "LabExeSequencer/labexesequencer.h"
 #endif
 #ifdef Q_OS_LINUX
 #include "LabExeImaging/labexeimaging.h"
 #include "LabExeOptimizing/labexeoptimizing.h"
-//#include "LabExeSequencer/labexesequencer.h"
+// #include "LabExeSequencer/labexesequencer.h"
 #endif
 
 #ifdef Q_OS_WIN32
